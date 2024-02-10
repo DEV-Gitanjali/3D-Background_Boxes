@@ -23,7 +23,7 @@ body {
     border: 0;
     border-radius: 3px;
     font-size: 16px;
-    padding: 12px ;
+    padding: 12px 20px ;
     cursor: pointer;
     position: fixed;
     top: 20px;
@@ -37,7 +37,22 @@ body {
 
 }
 
-magic:active{
+.magic:active{
     box-shadow: none;
     transform: translateY(2px);
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    
+  }
+
+.box{
+    background: yellow;
+    height: 125px;
+    width: 125px;
 }
